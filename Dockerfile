@@ -12,6 +12,7 @@ RUN apt-get update && apt-get install -y \
     libssl-dev \
     libffi-dev \
     gcc \
+    pkg-config \
     && rm -rf /var/lib/apt/lists/*
 
 # Establece el directorio de trabajo
